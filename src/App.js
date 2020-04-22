@@ -1,20 +1,30 @@
-import React from 'react';
-import axios from 'axios';
+import React from "react";
+import axios from "axios";
 
-import './App.css'
+import "./App.css";
 
-class App extends React.Component {   
-    state = { advice: '' }
-    
+class App extends React.Component {
+    state = { advice: "" };
+
     componentDidMount() {
-        console.log('COMPONENT DID MOUNT');
-        
+        this.fetchAdvice();
     }
 
+    fetchAdvice = () => {
+        axios.get('https://api.adviceslip.com/advice')
+        .then((response) => {
+            console.log(response.data.slip.advice);
+            
+        })
+        .catch((error) => {
+            console.log(error);
+        })
+    }
+
+
+
     render() {
-        return(
-            <h1>APP</h1>
-        );
+        return <h1>APP</h1>;
     }
 }
 
