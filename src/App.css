@@ -16,5 +16,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+}
+
+.card {
+    background-color: rgba(245, 245, 245, 0.5);
+    width: 40%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:10px;
+    padding: 2%;
+    box-shadow: 3px 3px 5px rgb(54, 54, 54);
 }
