@@ -23,13 +23,20 @@ class App extends React.Component {
             })
     }
 
+    reloadPage() {
+        window.location.reload();
+        return false;        
+    }
+
     render() {
         const { advice } = this.state;
 
         return (
           <div className="app">
-            <div className="card">
-              <h1 className="heading">{advice}</h1>
+            <div className="card fade">
+              <h1 className="heading " onClick={this.reloadPage}>
+                {advice}
+              </h1>
             </div>
           </div>
         );

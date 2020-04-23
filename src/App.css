@@ -30,6 +30,17 @@
     border-radius:10px;
     padding: 2%;
     box-shadow: 3px 3px 5px rgb(54, 54, 54);
+    transition:all 0.3s ease;
+    opacity:1;
+}
+
+.card:hover
+{
+        cursor: pointer;
+        opacity:0.5;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
 }
 
 .heading {
