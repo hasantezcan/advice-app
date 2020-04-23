@@ -30,6 +30,7 @@ class App extends React.Component {
   }
 
   render() {
+    //destracting
     const { advice } = this.state;
 
     return (
