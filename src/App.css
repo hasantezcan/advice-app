@@ -19,7 +19,7 @@
 }
 
 .card {
-    background-color: rgba(245, 245, 245, 0.5);
+    background-color: rgba(245, 245, 245, 0.7);
     width: 40em;
     height: 10em;
     margin: 10px;
@@ -36,7 +36,7 @@
 
 .card:hover
 {
-    background-color: rgba(245, 245, 245, 0.8);
+    background-color: rgba(245, 245, 245, 0.9);
     cursor: pointer;
     opacity:2;
     -webkit-transform: scale(1.1);
