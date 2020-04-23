@@ -13,3 +13,5 @@
 
 - [**github-buttons**](https://github.com/mdo/github-buttons)
   - https://ghbtns.com/
+
+- [**netlify - subdomain**](https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/#configure-a-subdomain)
