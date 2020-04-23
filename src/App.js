@@ -4,43 +4,56 @@ import axios from "axios";
 import "./App.css";
 
 class App extends React.Component {
-    state = { advice: '' };
+  state = { advice: "" };
 
-    componentDidMount() {
-        this.fetchAdvice();
-    }
+  componentDidMount() {
+    this.fetchAdvice();
+  }
 
-    fetchAdvice = () => {
-        axios.get('https://api.adviceslip.com/advice')
-            .then((response) => {
-                //destracting
-                const { advice } = response.data.slip;
+  fetchAdvice = () => {
+    axios
+      .get("https://api.adviceslip.com/advice")
+      .then((response) => {
+        //destracting
+        const { advice } = response.data.slip;
 
-                this.setState({ advice }); //advice: advice
-            })
-            .catch((error) => {
-                console.log(error);
-            })
-    }
+        this.setState({ advice }); //advice: advice
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
 
-    reloadPage() {
-        window.location.reload();
-        return false;        
-    }
+  reloadPage() {
+    window.location.reload();
+    return false;
+  }
 
-    render() {
-        const { advice } = this.state;
+  render() {
+    const { advice } = this.state;
 
-        return (
-          <div className="app">
-            <div className="card fade">
-              <h1 className="heading " onClick={this.reloadPage}>
-                {advice}
-              </h1>
-            </div>
-          </div>
-        );
-    }
+    return (
+      <div className="app">
+        <div className="card fade">
+          <h1 className="heading " onClick={this.reloadPage}>
+            {advice}
+          </h1>
+        </div>
+
+        <div className="github-badge">
+          <iframe
+            className="github-iframe"
+            src="https://ghbtns.com/github-btn.html?user=hasantezcan&repo=advice-app&type=star&count=true&size=large"
+            frameborder="0"
+            scrolling="0"
+          ></iframe>
+          <a className="github-username" href="https://github.com/hasantezcan">
+            @hasantezcan
+          </a>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
