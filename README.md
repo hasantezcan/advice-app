@@ -19,3 +19,6 @@
   - https://developer.mozilla.org/en-US/docs/Web/API/Location/reload
 
 - [CSS3 Transitions](https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/)
+
+- [github-buttons](https://github.com/mdo/github-buttons)
+  - https://ghbtns.com/
