@@ -1,24 +1,20 @@
-## Advice App
+# Advice App
+
+That app gives you a advice with a new ambiance picture when every that you refresh.
+
+#### `Techs that used :` &bull; [api.adviceslip](https://api.adviceslip.com/) &bull; [picsum.photos](https://picsum.photos/) &bull; [reactjs](https://github.com/facebook/react)
 
 
-### `yarn start`
+<p align="center">
+  <img alt="img-name" src="images/preview-desktop.gif" width="800">
+  <br>
+	<em>Desktop preview</em>
+</p>
 
---- 
-
-- [x]  Add images from [picsum.photos](https://picsum.photos/)
-    https://picsum.photos/1920/1080
 
 
- ### Notes 
-
-- [**CSS Linear Gradients**]([https://link](https://www.w3schools.com/css/css3_gradients.asp))
-- [**CSS "box-shadow"**](https://css-tricks.com/almanac/properties/b/box-shadow/)  
-    `box-shadow: 3px 3px 5px rgb(54, 54, 54);`
-
-- [`location.reload();`]([https://link](https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript))
-  - https://developer.mozilla.org/en-US/docs/Web/API/Location/reload
-
-- [CSS3 Transitions](https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/)
-
-- [github-buttons](https://github.com/mdo/github-buttons)
-  - https://ghbtns.com/
+<p align="center">
+  <img alt="img-name" src="images/preview-mobile.gif" width="200">
+  <br>
+	<em>Mobile preview</em>
+</p>
