@@ -20,10 +20,10 @@
 
 .card {
     background-color: rgba(245, 245, 245, 0.7);
+    background-attachment: fixed;
     width: 40em;
-    height: 10em;
     margin: 10px;
-    display: inline-table;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -45,10 +45,9 @@
 }
 
 .heading {
-    display: table-header-group;
+    display: inline;
     justify-content: center;
     align-items: center;
-    height: 580px;
     font-family: 'Playfair Display', serif;
 }
 
