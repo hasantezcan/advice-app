@@ -44,6 +44,13 @@
     transform: scale(1.1);
 }
 
+@media (max-width:800px) { 
+    .card:hover
+    {
+        transform: scale(1);
+    }
+ }
+
 .heading {
     display: inline;
     justify-content: center;
