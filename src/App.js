@@ -40,15 +40,12 @@ class App extends React.Component {
         </div>
 
         <div className="github-badge">
-          <iframe
-            className="github-iframe"
-            src="https://ghbtns.com/github-btn.html?user=hasantezcan&repo=advice-app&type=star&count=true&size=large"
-            frameborder="0"
-            scrolling="0"
-          ></iframe>
-          <a className="github-username" href="https://github.com/hasantezcan">
-            @hasantezcan
-          </a>
+          
+          <a class="github-button" 
+          href="https://github.com/hasantezcan/advice-app" 
+          data-size="large" 
+          data-show-count="true"
+          aria-label="Star hasantezcan/advice-app on GitHub">Star</a>
         </div>
       </div>
     );
