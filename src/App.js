@@ -35,10 +35,8 @@ class App extends React.Component {
 
     return (
       <div className="app">
-        <div className="card fade">
-          <h1 className="heading " onClick={this.reloadPage}>
-            {advice}
-          </h1>
+        <div className="card fade" onClick={this.reloadPage} >
+          <h1 className="heading ">{advice}</h1>
         </div>
 
         <div className="github-badge">
